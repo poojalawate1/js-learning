@@ -1,0 +1,20 @@
+const arrayNumbers=[20, 11, 40, 25, 23, 11, 9, 31, 60, 2, 19 ];
+const addNumber = arrayNumbers.map(element => {
+    return(element+10);
+  
+    
+});
+console.log(arrayNumbers);
+
+console.log(`--------------------Square of each array-------------------`);
+const squarenumber=arrayNumbers.map(element =>{
+    return(element*element);
+
+});
+console.log(squarenumber);
+
+console.log(`----------Add the index value corresponding each array---------`);
+const indexArray= arrayNumbers.map((element,index) => {
+ return element + index
+});
+console.log(indexArray);
